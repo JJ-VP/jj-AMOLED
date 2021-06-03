@@ -1,0 +1,78 @@
+@keyframes spinny-rainbow {
+  0%{color: rgb(255,0,0);transform: rotate(0deg);}
+  8%{color: rgb(255,127,0);}
+  16%{color: rgb(255,255,0);}
+  25%{color: rgb(127,255,0);}
+  33%{color: rgb(0,255,0);}
+  41%{color: rgb(0,255,127);}
+  50%{color: rgb(0,255,255);}
+  58%{color: rgb(0,127,255);}
+  66%{color: rgb(0,0,255);}
+  75%{color: rgb(127,0,255);}
+  83%{color: rgb(255,0,255);}
+  91%{color: rgb(255,0,127);}
+  100%{color: rgb(255,0,0);transform: rotate(360deg);}
+}
+@keyframes rainbow {
+  from {color: #6666ff};
+  25%  {color: #0099ff};
+  50%  {color: #00ff00};
+  75%  {color: #ff3399};
+  100% {color: #6666ff};
+}
+@keyframes seek-rainbow {
+  from {background-color: #6666ff};
+  25%  {background-color: #0099ff};
+  50%  {background-color: #00ff00};
+  75%  {background-color: #ff3399};
+  100% {background-color: #6666ff};
+}
+
+/*Discord logo*/
+.childWrapper-anI2G9:hover > .homeIcon-FuNwkv,.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 > .homeIcon-FuNwkv {
+  animation-name: spinny-rainbow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+.childWrapper-anI2G9,.childWrapper-anI2G9:hover {
+  background-color: rgba(0, 0, 0, .2) !important;
+}
+/*Bottom left buttons*/
+.button-14-BFJ{
+  transition: 0.2s;
+}
+.button-14-BFJ:hover{
+  padding-bottom: 5px;
+  transition: 0.2;
+  animation-name: rainbow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+/*Code block text*/
+.powercord-codeblock-table > tr > td:nth-child(1) {
+  animation: rainbow 5s ease-in-out infinite;
+}
+/*Username*/
+.usernameContainer-1fp4nu .title-eS5yk3 {
+    animation: rainbow 5s ease-in-out infinite;
+}
+
+/* Spotify */ /* !!Had to edit pc-spotify for this to work!! */
+.powercord-spotify .spotify-buttons button {
+  animation-name: rainbow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.powercord-spotify .spotify-seek-bar-progress {
+  animation-name: seek-rainbow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}

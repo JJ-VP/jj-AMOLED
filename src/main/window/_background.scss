@@ -1,0 +1,18 @@
+@keyframes gradient { 
+  0%{background-position:0% 0%}
+  50%{background-position:75% 75%}
+  100%{background-position:150% 150%}
+}
+  
+.appMount-3lHmkl{
+    margin:1px;
+    width:calc(100% - 2px)!important;
+    height:calc(100% - 2px)!important;
+}
+
+body {
+  background: linear-gradient(to bottom, #F00, #F00, #ffa500, #FF0, #008000, #00F, #4b0082, #4b0082, #00F, #008000, #FF0, #FFA500, #F00, #F00);
+  background-repeat: repeat;
+  background-size: 300% 300%;
+  animation: gradient 10s linear infinite;
+}
