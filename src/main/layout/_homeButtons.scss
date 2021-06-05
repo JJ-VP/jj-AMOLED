@@ -1,0 +1,29 @@
+#private-channels > [class*="content-"] {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#private-channels > [class*="content-"] > a {
+    flex-grow: 1;
+    margin-top: 8px !important; 
+}
+#private-channels > [class*="content-"] > a [class*="layout-"] {
+    justify-content: center;
+}
+#private-channels > [class*="content-"] > a [class*="avatar-"] {
+    margin: 0 !important;
+}
+#private-channels > [class*="content-"] > a [class*="content-"] {
+    display: none;
+}
+#private-channels > [class*="content-"] > a[href*="/channels/@me/"] {
+    width: 100%;
+    margin-left: 8px !important;
+    margin-top: 0 !important;
+}
+#private-channels > [class*="content-"] > a[href*="/channels/@me/"] [class*="content-"] {
+    display: block;
+}
+#private-channels > [class*="content-"] > a[href*="/channels/@me/"] [class*="avatar-"] {
+    margin-right: 12px !important;
+}

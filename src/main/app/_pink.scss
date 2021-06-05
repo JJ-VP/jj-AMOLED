@@ -30,12 +30,24 @@
   color: #FF007F !important;
 }
 /* Talking indicators */
-.avatarSpeaking-2c8-9i ,.avatarSpeaking-2IGMRN{
+
+.avatarSpeaking-2IGMRN{
     box-shadow: inset 0 0 0 2px #FF007F,inset 0 0 0 3px var(--background-secondary) !important;
 }
-.speaking-WDn8Wm {
-    box-shadow: inset 0 0 0 2px #FF007F,inset 0 0 0 3px var(--background-secondary) !important;
+
+$profilestatuss:(
+    Online:#00ff00,
+    Idle:#ffff00,
+    Do Not Disturb:#ff0000,
+    Streaming:#4b0082,
+    Invisible:#747f8d,
+);
+@each $name, $profilestatus in $profilestatuss{
+    .avatar-SmRMf2[aria-label*="#{$name}"] .avatarSpeaking-2c8-9i {
+        box-shadow: inset 0 0 0 2px $profilestatus,inset 0 0 0 3px var(--background-secondary);
+    }
 }
+
 /* Unread channel */
 .unread-2lAfLh {
     background-color: #FF007F;
