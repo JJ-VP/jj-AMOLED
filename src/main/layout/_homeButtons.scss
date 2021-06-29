@@ -1,29 +1,5 @@
-#private-channels > [class*="content-"] {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-#private-channels > [class*="content-"] > a {
-    flex-grow: 1;
-    margin-top: 8px !important; 
-}
-#private-channels > [class*="content-"] > a [class*="layout-"] {
-    justify-content: center;
-}
-#private-channels > [class*="content-"] > a [class*="avatar-"] {
-    margin: 0 !important;
-}
-#private-channels > [class*="content-"] > a [class*="content-"] {
-    display: none;
-}
-#private-channels > [class*="content-"] > a[href*="/channels/@me/"] {
-    width: 100%;
-    margin-left: 8px !important;
-    margin-top: 0 !important;
-}
-#private-channels > [class*="content-"] > a[href*="/channels/@me/"] [class*="content-"] {
-    display: block;
-}
-#private-channels > [class*="content-"] > a[href*="/channels/@me/"] [class*="avatar-"] {
-    margin-right: 12px !important;
-}
+.privateChannels-1nO12o .content-3YMskv { --columns: 4; display: grid; grid-template-columns: repeat(var(--columns), 1fr); grid-auto-rows: min-content; }
+.privateChannels-1nO12o .content-3YMskv > * { grid-column: 1/-1; }
+.privateChannels-1nO12o .content-3YMskv .channel-2QD9_O:not([aria-label]) { grid-column: auto; }
+.privateChannels-1nO12o .content-3YMskv .channel-2QD9_O:not([aria-label]) .layout-2DM8Md .content-3QAtGj { display: none; }
+.privateChannels-1nO12o .content-3YMskv .channel-2QD9_O:not([aria-label]) .layout-2DM8Md .avatar-3uk_u9 { width: 100%; margin: 0 !important; }

@@ -7,6 +7,21 @@
 .scrollableContainer-2NUZem{
   background-color: transparent !important;
 }
-.jumpToPresentBar-G1R9s6 {
-    background-color: transparent !important;
+/* Removes a stupid Container */
+.form-2fGMdU:before{
+  display: none;
+}
+/* Applies blur, fixes message cut off */
+.form-2fGMdU {
+    background: #0000 !important; 
+    padding-top:1vh;
+    backdrop-filter: blur(10px);
+}
+.scroller-2LSbBU {
+  margin-bottom: -567px;
+    padding-bottom: 557px;
+}
+/* Fixes Scrollbar and pushes a tiny bit up to prevent it from being caught in blur */
+.messagesWrapper-1sRNjr ::-webkit-scrollbar-track  {
+    margin-bottom: 571px !important;
 }

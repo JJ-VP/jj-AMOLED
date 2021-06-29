@@ -1,0 +1,63 @@
+:root {
+    --JJ-Pink: #FF007F;
+    --JJ-Blue: #0FF;
+};
+
+/* Selected / hover server pill */
+.item-2hkk8m { background-color: var(--JJ-Blue); }
+
+/* Home */
+#app-mount .item-PXvHYJ { color: white; }
+/*Friends Tab*/
+#app-mount [aria-controls='ALL-tab'] { order: -1; background-color: rgb(0, 118, 187); }
+#app-mount [aria-controls='ONLINE-tab'] { background-color: rgb(29, 185, 84); }
+#app-mount [aria-controls='PENDING-tab'] { background-color: rgb(250, 166, 26); }
+#app-mount [aria-controls='BLOCKED-tab'] { background-color: rgb(255, 42, 0); }
+#app-mount [aria-controls='ADD_FRIEND-tab'] { background-color: rgb(209, 41, 255) !important; }
+/*Libary Tab*/
+#app-mount [aria-controls='/library-tab'] { order: -1; background-color: rgb(0, 118, 187); }
+#app-mount [aria-controls='/library/settings-tab'] { background-color: rgb(29, 185, 84); }
+
+/* Pink stuff */
+/* links */
+.anchor-3Z-8Bb { color: var(--JJ-Pink) !important; }
+/* Member list */
+.membersGroup-v9BXpm::after { color: var(--JJ-Pink) !important; background: linear-gradient(to right, var(--JJ-Pink) 50%, transparent) !important; }
+.container-2Pjhx- .activityText-yGKsKm>strong, .container-2Pjhx- .activityText-OW8WYb>strong { color: var(--JJ-Pink) !important; }
+/* channel */ 
+.name-3l27Hl, .side-8zPYf6 .header-2RyJ0Y, .membersGroup-v9BXpm, .privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1 { color: var(--JJ-Pink) !important; }
+.addButtonIcon-2CbG1X { color: var(--JJ-Pink); }
+/* Talking indicators */
+.avatarSpeaking-2IGMRN{ box-shadow: inset 0 0 0 2px var(--JJ-Pink),inset 0 0 0 3px var(--background-secondary) !important; }
+/* Unread channel */
+.unread-2lAfLh { background-color: var(--JJ-Pink); }
+.modeUnread-1qO3K1 .name-23GUGE{ color: var(--JJ-Pink); }
+/* Themes manager text */
+.defaultColor-1_ajX0 { color: var(--JJ-Pink); }
+
+/* Blue Stuff */
+/* Selected channel */
+.modeSelected-346R90 .name-23GUGE { color: var(--JJ-Blue); }
+/* Hover channel */
+.mainContent-u_9PKf:hover .channelName-2YrOjO { color: var(--JJ-Blue) !important; }
+
+/* Nitro page */
+.featureEmoji-3pTtR2 .featureDescription-1wp-zJ { color: #ffa600; }
+.featureProfile-tTo0C- .featureDescription-1wp-zJ { color: #00e0a7; }
+.featurePremiumGuild-2KpCr6 .featureDescription-1wp-zJ { color: #5c87ff; }
+.featureBadge-3ZA-Ca .featureDescription-1wp-zJ { color: #ffafff; }
+.featureUploadSize-2CAVFL .featureDescription-1wp-zJ { color: #776bff; }
+.featureGoLive-30cvVw .featureDescription-1wp-zJ { color: #fa4e89; }
+.featureLongerMessageContent-1RADxx .featureDescription-1wp-zJ { color: #ffd836; }
+.featureMoreServers-14Thw5 .featureDescription-1wp-zJ { color: #a57ef8; }
+
+
+/* NSFW Alert */
+[d="M19.8914 3.80204L22.2438 8.55654C22.5726 9.22119 22.0891 9.99999 21.3475 10L16.6179 10C15.8745 10 15.391 9.21769 15.7235 8.55279L18.1007 3.79829C18.4701 3.05951 19.5251 3.06172 19.8914 3.80204ZM18.4998 5H19.4999V7.5H18.4999L18.4998 5ZM18.4998 8.49887C18.4998 8.77589 18.7238 9 18.9998 9C19.2759 9 19.4999 8.77589 19.4999 8.49887C19.4999 8.22224 19.2759 7.99773 18.9998 7.99773C18.7238 7.99773 18.4998 8.22224 18.4998 8.49887Z"]{
+  fill:hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);
+}
+
+/* Locked icon */
+[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"]{
+  fill:hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);
+}

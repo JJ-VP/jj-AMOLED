@@ -1,0 +1,68 @@
+div[class*=contents] code.inline::before{
+  content: "`";
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-rendering: optimizeLegibility;
+  background: transparent;
+  color: grey;
+}
+div[class*=contents] code.inline::after{
+  content: "`";
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-rendering: optimizeLegibility;
+  background: transparent;
+  color: grey;
+}
+div[class*=contents] div[class*=blockquoteContainer]::before{
+  content: "> ";
+  color: grey;
+  font-style: normal;
+  font-weight: normal;
+}
+div[class*=contents] strong::before{
+  content: "**";
+  color: grey;
+  font-style: normal;
+  font-weight: normal;
+}
+div[class*=contents] strong::after{
+  content: "**";
+  color: grey;
+  font-style: normal;
+  font-weight: normal;
+}
+div[class*=contents] em::before{
+  content: "*";
+  color: grey;
+  font-style: normal;
+  font-weight: normal;
+}
+div[class*=contents] em::after{
+  content: "*";
+  color: grey;
+  font-style: normal;
+  font-weight: normal;
+}
+div[class*=Content] u::before{
+  content: "__";
+  color: grey;
+  font-style: normal;
+  font-weight: normal;
+}
+div[class*=Content] u::after{
+  content: "__";
+  color: grey;
+  font-style: normal;
+  font-weight: normal;
+}
+div[class*=contents] pre::before{
+  content: "`‌``";
+  color: grey;
+  font-style: normal;
+  font-weight: normal;
+}
+div[class*=contents] pre::after{
+  content: "`‌``";
+  color: grey;
+  font-style: normal;
+  font-weight: normal;
+}

@@ -1,0 +1,13 @@
+[data-list-id="guildsnav"] > [class*="scroller-"] {
+    display: flex;
+    flex-direction: column;
+}
+[data-list-id="guildsnav"] > [class*="scroller-"] > [aria-label] {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+[data-list-id="guildsnav"] > [class*="scroller-"] > [class*="tutorialContainer-"]:first-child + [class*="listItem"] > [class*="guildSeparator-"] {
+    display: none;
+}
